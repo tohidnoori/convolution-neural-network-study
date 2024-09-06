@@ -1,22 +1,17 @@
-# Artificial neural network
+# Convolution neural network study
 
 
-**Artificial neural network** (ANN) is a computational model inspired by the human brain, consisting of interconnected nodes (neurons) that process data in layers to recognize patterns and solve complex problems.
+A **convolutional neural network (CNN)** is a regularized type of feed-forward neural network that learns features by itself via filter (or kernel) optimization. This type of deep learning network has been applied to process and make predictions from many different types of data including text, images and audio.
 <br/>
 <br/>
-I built this model on myself using a single hidden layer and a single node for the outer layer.
-I use **binary cross entropy** for my loss function and **Relu** and **Sigmoid** for my activation functions in this simple network.
-I also use matrix multiplication and backpropagation to calculate the weights and biases of this network.
-<br/>
-The comparison between my model and the **tensor flow sequential model** is discussed at the end.
 - - - -
 #### These statistics are being examined right now: ####
  
-#### These features of Ann studied here: ####
-  * Diffirent optimizers (Adam,Adagrad,SGD,Rmsprop)
-  * Diffirent activation functions (sigmoid,relu,tanh)
-  * Epochs ,Batch size ,Learning rate ,Loss functions,N-jobs = ("Number of cpu cores to use")
-    
+#### These features of CNN studied here: ####
+  * MaxPooling2D (pool_size)
+  * Kernels (also known as filters in cnn)
+  * Strides (determines how many squares or pixels our filters skip when they move across the image)
+  * Padding (the technique of adding extra pixels around the input image or feature map to maintain spatial dimensions during the convolution operation)
 - - - -
 ### Some equations used for the backprop process
 <table>
