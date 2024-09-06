@@ -12,49 +12,11 @@ A **convolutional neural network (CNN)** is a regularized type of feed-forward n
   * Strides (determines how many squares or pixels our filters skip when they move across the image)
   * Padding (the technique of adding extra pixels around the input image or feature map to maintain spatial dimensions during the convolution operation)
 - - - -
-### Kernel and sobel learned here
+### Imagess from this expirement
+#### Kernel and sobel learned here
 <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/kernel-applied.png" width="800" height="400">
 <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/convolve-applied.png" width="800" height="400">
-<p>Hidden layer weight's backpropagation</p>
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/kernel-applied.png" width="500" height="400">
-      <p>Hidden layer weight's backpropagation</p>
-    </td>
-    <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Output%20Layer%20bias%20backpropagation.png" width="500" height="400" alt="Output layer bias backpropagation">
-      <p>Output layer bias backpropagation</p>
-    </td>
-  </tr>
-</table>
-<br/>
 
-### My handwritten model Vs Tensor model
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/My model confusion matrix.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
-      <p>My model confusion matrix</p>
-      <p>Precision: 0.7168 
-       <br/>
-       Accuracy: 0.6120   
-       <br/>
-       Sensitivity (Recall): 0.3333</p>
-    </td>
-    <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Tensor flow model confusion matrix.png" width="500" height="400" alt="Output layer bias backpropagation">
-      <p>Tensor flow model confusion matrix</p>
-      <p>Precision: 0.7171
-        <br/>
-        Accuracy: 0.6920 
-        <br/>
-        Sensitivity (Recall): 0.6049</p>
-    </td>
-  </tr>
-</table>
+#### MaxPooling leaned here
+<img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/max_pooled_image.png" width="800" height="400">
 <br/>
-<div align="center" style="display:flex;flex-direction:row;align-items: center;">
-  <img style="margin:10;" src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Roc-auc.png" width="600" height="500" alt="Image 1">
-<div/>
-<p>Roc-auc curve</p>
