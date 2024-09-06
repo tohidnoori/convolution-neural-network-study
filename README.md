@@ -12,11 +12,14 @@ A **convolutional neural network (CNN)** is a regularized type of feed-forward n
   * Strides (determines how many squares or pixels our filters skip when they move across the image)
   * Padding (the technique of adding extra pixels around the input image or feature map to maintain spatial dimensions during the convolution operation)
 - - - -
-### Some equations used for the backprop process
+### Kernel and sobel learned here
+<img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/kernel-applied.png" width="800" height="400">
+<img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/convolve-applied.png" width="800" height="400">
+<p>Hidden layer weight's backpropagation</p>
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Hidden%20Layer%20weight's%20backpropagation.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
+      <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/kernel-applied.png" width="500" height="400">
       <p>Hidden layer weight's backpropagation</p>
     </td>
     <td align="center">
