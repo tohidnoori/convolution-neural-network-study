@@ -21,26 +21,28 @@ A **convolutional neural network (CNN)** is a regularized type of feed-forward n
 <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/max_pooled_image.png" width="800" height="400">
 <br/>
 
-### My system and colab trained model
+#### My system and colab trained model
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/My model confusion matrix.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
-      <p>My model confusion matrix</p>
-      <p>Precision: 0.7168 
+      <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/happy-sad conv colab model.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
+      <h3>Colab trained model</h3>
+     <p>Total params: 15,767,313 <br/>
+      <p>Precision: 0.9563
        <br/>
-       Accuracy: 0.6120   
+       Accuracy: 0.9548
        <br/>
-       Sensitivity (Recall): 0.3333</p>
+       Sensitivity (Recall): 0.9459</p>
     </td>
     <td align="center">
-      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Tensor flow model confusion matrix.png" width="500" height="400" alt="Output layer bias backpropagation">
-      <p>Tensor flow model confusion matrix</p>
-      <p>Precision: 0.7171
-        <br/>
-        Accuracy: 0.6920 
-        <br/>
-        Sensitivity (Recall): 0.6049</p>
+      <img src="https://github.com/tohidnoori/convolution-neural-network-study/blob/main/images/Tensor flow model confusion matrix.png" width="500" height="400" alt="Output layer bias backpropagation">
+      <h3>My system trained model</h3>
+      <p>Total params: 7,886,481 <br/>
+      <p>Precision: 0.6039
+       <br/>
+       Accuracy: 0.6482
+       <br/>
+       Sensitivity (Recall): 0.6831</p>
     </td>
   </tr>
 </table>
